@@ -7,21 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="controllers\" />
     <None Remove="ApplicationCore\" />
     <None Remove="ApplicationCore\Contracts\" />
     <None Remove="ApplicationCore\Contracts\ServicesFolder\" />
     <None Remove="Infrastructure\" />
     <None Remove="Infrastructure\Repository\" />
     <None Remove="Infrastructure\Services\" />
+    <None Remove="MovieShopMVC\" />
+    <None Remove="MovieShopMVC\controllers\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="controllers\" />
     <Folder Include="ApplicationCore\" />
     <Folder Include="ApplicationCore\Contracts\" />
     <Folder Include="ApplicationCore\Contracts\ServicesFolder\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Repository\" />
     <Folder Include="Infrastructure\Services\" />
+    <Folder Include="MovieShopMVC\" />
+    <Folder Include="MovieShopMVC\controllers\" />
   </ItemGroup>
 </Project>
