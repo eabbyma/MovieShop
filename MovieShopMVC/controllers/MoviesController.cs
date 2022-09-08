@@ -1,20 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace MovieShop.controllers
+namespace MovieShopMVC.Controllers
 {
     public class MoviesController : Controller
     {
-        // GET: /<controller>/
-        public IActionResult Index()
-        {
+        public IActionResult Details(int id) {
+
+            // go to database and get the movie information by
+            // movie id and send the data (Model) to the view
+            // ADO.NET 
+            // Dapper Stackoverflow -> Micro ORM
+            // Entity Framework Core => Full ORM
+
+            // Select * from Movies where id =12;
+            // Code is Maintenable, Reusable, Readable, extensible, testable
+            // layers => Layered architecture
+            // Onion, Clean 
+
             return View();
         }
     }
 }
-
